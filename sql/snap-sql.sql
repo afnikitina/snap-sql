@@ -12,7 +12,7 @@ DROP TABLE IF EXISTS comments;
 CREATE TABLE comments (
 	commentId BINARY(16) NOT NULL,
 	commentDateTime TIMESTAMP NOT NULL,
-	commentText VARCHAR(123),
+	commentText VARCHAR(128),
 	INDEX(commentDateTime),
 	PRIMARY KEY(commentId)
 );
