@@ -6,6 +6,8 @@
 -- Create Table and two insert statements
 -- YYYY-MM-DD HH:MM:SS
 
+DROP TABLE IF EXISTS comments;
+
 -- create the comment entity
 CREATE TABLE comments (
 	commentId BINARY(16) NOT NULL,
