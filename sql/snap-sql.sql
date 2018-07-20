@@ -13,7 +13,7 @@ CREATE TABLE comments (
 	commentId BINARY(16) NOT NULL,
 	commentDateTime TIMESTAMP NOT NULL,
 	commentText VARCHAR(123),
-	INDEX(commentDate),
+	INDEX(commentDateTime),
 	PRIMARY KEY(commentId)
 );
 
