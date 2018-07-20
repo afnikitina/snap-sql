@@ -19,7 +19,7 @@ CREATE TABLE comments (
 
 INSERT INTO comments(commentId
 				,commentDateTime
-				,commentText
+				,commentText)
 VALUES 		(unhex("0132182920af4015a9fad968b0f44f7c")
 				,"2018-07-20 08:25:34"
 				,"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
@@ -27,7 +27,7 @@ VALUES 		(unhex("0132182920af4015a9fad968b0f44f7c")
 
 INSERT INTO comments(commentId
 				,commentDateTime
-				,commentText
+				,commentText)
 VALUES 		(unhex("24f10a910d474c60bd66b3aa878b413b")
 				,"2018-07-20 08:27:45"
 				,"Into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheet"
